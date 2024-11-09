@@ -1,0 +1,90 @@
+{
+    "common": {
+      "getStarted": "开始",
+      "watchDemo": "观看演示",
+      "learnMore": "了解更多"
+    },
+    "nav": {
+      "home": "首页",
+      "services": "服务",
+      "about": "关于我们",
+      "contact": "联系我们"
+    },
+    "hero": {
+      "title": "转变您的业务",
+      "subtitle": "为现代企业提供先进的分析和AI驱动的解决方案",
+      "metrics": {
+        "activeProjects": "活跃项目",
+        "successRate": "成功率",
+        "teamMembers": "团队成员",
+        "globalClients": "全球客户"
+      }
+    },
+    "services": {
+      "title": "我们的服务",
+      "subtitle": "由先进分析和AI驱动的综合业务解决方案",
+      "aiAnalytics": {
+        "title": "AI分析",
+        "description": "由人工智能驱动的先进分析",
+        "features": [
+          "预测分析",
+          "模式识别",
+          "实时洞察"
+        ]
+      },
+      "businessIntelligence": {
+        "title": "商业智能",
+        "description": "将数据转化为可操作的洞察",
+        "features": [
+          "自定义仪表板",
+          "市场分析",
+          "绩效跟踪"
+        ]
+      },
+      "consulting": {
+        "title": "咨询",
+        "description": "为您的企业需求提供专家指导",
+        "features": [
+          "战略规划",
+          "流程优化",
+          "增长解决方案"
+        ]
+      },
+      "innovationLab": {
+        "title": "创新实验室",
+        "description": "为现代挑战提供未来解决方案",
+        "features": [
+          "研发项目",
+          "数字化转型",
+          "技术集成"
+        ]
+      }
+    },
+    "footer": {
+      "solutions": {
+        "title": "解决方案",
+        "analytics": "分析",
+        "commerce": "商业",
+        "insights": "洞察"
+      },
+      "support": {
+        "title": "支持",
+        "documentation": "文档",
+        "guides": "指南",
+        "apiStatus": "API状态"
+      },
+      "company": {
+        "title": "公司",
+        "about": "关于我们",
+        "blog": "博客",
+        "careers": "职业"
+      },
+      "legal": {
+        "title": "法律",
+        "privacy": "隐私",
+        "terms": "条款",
+        "contact": "联系我们"
+      },
+      "copyright": "© {{year}} Horus BDC. 保留所有权利。"
+    }
+  }

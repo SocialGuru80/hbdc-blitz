@@ -1,0 +1,90 @@
+{
+    "common": {
+      "getStarted": "Get Started",
+      "watchDemo": "Watch Demo",
+      "learnMore": "Learn More"
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Transform Your Business",
+      "subtitle": "Advanced analytics and AI-driven solutions for modern enterprises",
+      "metrics": {
+        "activeProjects": "Active Projects",
+        "successRate": "Success Rate",
+        "teamMembers": "Team Members",
+        "globalClients": "Global Clients"
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive business solutions powered by advanced analytics and AI",
+      "aiAnalytics": {
+        "title": "AI Analytics",
+        "description": "Advanced analytics powered by artificial intelligence",
+        "features": [
+          "Predictive Analysis",
+          "Pattern Recognition",
+          "Real-time Insights"
+        ]
+      },
+      "businessIntelligence": {
+        "title": "Business Intelligence",
+        "description": "Transform data into actionable insights",
+        "features": [
+          "Custom Dashboards",
+          "Market Analysis",
+          "Performance Tracking"
+        ]
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "Expert guidance for your business needs",
+        "features": [
+          "Strategy Planning",
+          "Process Optimization",
+          "Growth Solutions"
+        ]
+      },
+      "innovationLab": {
+        "title": "Innovation Lab",
+        "description": "Future-proof solutions for modern challenges",
+        "features": [
+          "R&D Projects",
+          "Digital Transformation",
+          "Tech Integration"
+        ]
+      }
+    },
+    "footer": {
+      "solutions": {
+        "title": "Solutions",
+        "analytics": "Analytics",
+        "commerce": "Commerce",
+        "insights": "Insights"
+      },
+      "support": {
+        "title": "Support",
+        "documentation": "Documentation",
+        "guides": "Guides",
+        "apiStatus": "API Status"
+      },
+      "company": {
+        "title": "Company",
+        "about": "About",
+        "blog": "Blog",
+        "careers": "Careers"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "contact": "Contact"
+      },
+      "copyright": "© {{year}} Horus BDC. All rights reserved."
+    }
+  }

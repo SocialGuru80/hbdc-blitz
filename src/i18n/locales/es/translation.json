@@ -1,0 +1,90 @@
+{
+    "common": {
+      "getStarted": "Comenzar",
+      "watchDemo": "Ver Demo",
+      "learnMore": "Aprender Más"
+    },
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Acerca de",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "title": "Transforma Tu Negocio",
+      "subtitle": "Soluciones avanzadas de análisis y AI para empresas modernas",
+      "metrics": {
+        "activeProjects": "Proyectos Activos",
+        "successRate": "Tasa de Éxito",
+        "teamMembers": "Miembros del Equipo",
+        "globalClients": "Clientes Globales"
+      }
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Soluciones empresariales integrales potenciadas por análisis avanzados y AI",
+      "aiAnalytics": {
+        "title": "Analítica AI",
+        "description": "Análisis avanzados potenciados por inteligencia artificial",
+        "features": [
+          "Análisis Predictivo",
+          "Reconocimiento de Patrones",
+          "Información en Tiempo Real"
+        ]
+      },
+      "businessIntelligence": {
+        "title": "Inteligencia de Negocios",
+        "description": "Transforma datos en información accionable",
+        "features": [
+          "Paneles Personalizados",
+          "Análisis de Mercado",
+          "Seguimiento de Rendimiento"
+        ]
+      },
+      "consulting": {
+        "title": "Consultoría",
+        "description": "Asesoramiento experto para tus necesidades empresariales",
+        "features": [
+          "Planificación Estratégica",
+          "Optimización de Procesos",
+          "Soluciones de Crecimiento"
+        ]
+      },
+      "innovationLab": {
+        "title": "Laboratorio de Innovación",
+        "description": "Soluciones futuristas para desafíos modernos",
+        "features": [
+          "Proyectos de I+D",
+          "Transformación Digital",
+          "Integración Tecnológica"
+        ]
+      }
+    },
+    "footer": {
+      "solutions": {
+        "title": "Soluciones",
+        "analytics": "Analítica",
+        "commerce": "Comercio",
+        "insights": "Información"
+      },
+      "support": {
+        "title": "Soporte",
+        "documentation": "Documentación",
+        "guides": "Guías",
+        "apiStatus": "Estado de la API"
+      },
+      "company": {
+        "title": "Empresa",
+        "about": "Acerca de",
+        "blog": "Blog",
+        "careers": "Carreras"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacidad",
+        "terms": "Términos",
+        "contact": "Contacto"
+      },
+      "copyright": "© {{year}} Horus BDC. Todos los derechos reservados."
+    }
+  }

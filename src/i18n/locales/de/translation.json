@@ -1,0 +1,90 @@
+{
+  "common": {
+    "getStarted": "Loslegen",
+    "watchDemo": "Demo ansehen",
+    "learnMore": "Mehr erfahren"
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Transformieren Sie Ihr Unternehmen",
+    "subtitle": "Erweiterte Analysen und AI-gesteuerte Lösungen für moderne Unternehmen",
+    "metrics": {
+      "activeProjects": "Aktive Projekte",
+      "successRate": "Erfolgsrate",
+      "teamMembers": "Teammitglieder",
+      "globalClients": "Globale Kunden"
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Geschäftslösungen, unterstützt durch erweiterte Analysen und KI",
+    "aiAnalytics": {
+      "title": "KI-Analytik",
+      "description": "Erweiterte Analysen, unterstützt durch künstliche Intelligenz",
+      "features": [
+        "Prädiktive Analyse",
+        "Muster-Erkennung",
+        "Echtzeit-Einblicke"
+      ]
+    },
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Daten in handlungsrelevante Erkenntnisse umwandeln",
+      "features": [
+        "Benutzerdefinierte Dashboards",
+        "Marktanalyse",
+        "Leistungskontrolle"
+      ]
+    },
+    "consulting": {
+      "title": "Beratung",
+      "description": "Expertenberatung für Ihre Geschäftsanforderungen",
+      "features": [
+        "Strategieplanung",
+        "Prozessoptimierung",
+        "Wachstumslösungen"
+      ]
+    },
+    "innovationLab": {
+      "title": "Innovationslabor",
+      "description": "Zukunftssichere Lösungen für moderne Herausforderungen",
+      "features": [
+        "F&E-Projekte",
+        "Digitale Transformation",
+        "Technologieintegration"
+      ]
+    }
+  },
+  "footer": {
+    "solutions": {
+      "title": "Lösungen",
+      "analytics": "Analytik",
+      "commerce": "Handel",
+      "insights": "Einblicke"
+    },
+    "support": {
+      "title": "Support",
+      "documentation": "Dokumentation",
+      "guides": "Anleitungen",
+      "apiStatus": "API-Status"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "blog": "Blog",
+      "careers": "Karriere"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "contact": "Kontakt"
+    },
+    "copyright": "© {{year}} Horus BDC. Alle Rechte vorbehalten."
+  }
+}

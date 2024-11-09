@@ -1,0 +1,90 @@
+{
+  "common": {
+    "getStarted": "Başlayın",
+    "watchDemo": "Demo yu İzleyin",
+    "learnMore": "Daha Fazla Bilgi Edinin"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "İşletmenizi Dönüştürün",
+    "subtitle": "Modern işletmeler için gelişmiş analitik ve AI destekli çözümler",
+    "metrics": {
+      "activeProjects": "Aktif Projeler",
+      "successRate": "Başarı Oranı",
+      "teamMembers": "Ekip Üyeleri",
+      "globalClients": "Küresel Müşteriler"
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Gelişmiş analitik ve AI ile desteklenen kapsamlı iş çözümleri",
+    "aiAnalytics": {
+      "title": "AI Analitiği",
+      "description": "Yapay zeka destekli gelişmiş analitik",
+      "features": [
+        "Tahmine Dayalı Analiz",
+        "Desen Tanıma",
+        "Gerçek Zamanlı Öngörüler"
+      ]
+    },
+    "businessIntelligence": {
+      "title": "İş Zekası",
+      "description": "Verileri eyleme dönüştürülebilir bilgilere dönüştürün",
+      "features": [
+        "Özel Panolar",
+        "Pazar Analizi",
+        "Performans İzleme"
+      ]
+    },
+    "consulting": {
+      "title": "Danışmanlık",
+      "description": "İşletmenizin ihtiyaçları için uzman rehberlik",
+      "features": [
+        "Strateji Planlama",
+        "Süreç Optimizasyonu",
+        "Büyüme Çözümleri"
+      ]
+    },
+    "innovationLab": {
+      "title": "Yenilik Laboratuvarı",
+      "description": "Modern zorluklar için geleceğe yönelik çözümler",
+      "features": [
+        "AR-GE Projeleri",
+        "Dijital Dönüşüm",
+        "Teknoloji Entegrasyonu"
+      ]
+    }
+  },
+  "footer": {
+    "solutions": {
+      "title": "Çözümler",
+      "analytics": "Analitik",
+      "commerce": "Ticaret",
+      "insights": "Öngörüler"
+    },
+    "support": {
+      "title": "Destek",
+      "documentation": "Dokümantasyon",
+      "guides": "Kılavuzlar",
+      "apiStatus": "API Durumu"
+    },
+    "company": {
+      "title": "Şirket",
+      "about": "Hakkımızda",
+      "blog": "Blog",
+      "careers": "Kariyer"
+    },
+    "legal": {
+      "title": "Yasal",
+      "privacy": "Gizlilik",
+      "terms": "Şartlar",
+      "contact": "İletişim"
+    },
+    "copyright": "© {{year}} Horus BDC. Tüm hakları saklıdır."
+  }
+}
