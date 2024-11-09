@@ -9,21 +9,22 @@ interface Language {
   name: string;
   flag: string;
   nativeName: string;
+  countryCode: string;
 }
 
 const languages: Language[] = [
-  { code: 'en', name: 'English', flag: '🇬🇧', nativeName: 'English' },
-  { code: 'de', name: 'German', flag: '🇩🇪', nativeName: 'Deutsch' },
-  { code: 'tr', name: 'Turkish', flag: '🇹🇷', nativeName: 'Türkçe' },
-  { code: 'es', name: 'Spanish', flag: '🇪🇸', nativeName: 'Español' },
-  { code: 'fr', name: 'French', flag: '🇫🇷', nativeName: 'Français' },
-  { code: 'it', name: 'Italian', flag: '🇮🇹', nativeName: 'Italiano' },
-  { code: 'nl', name: 'Dutch', flag: '🇳🇱', nativeName: 'Nederlands' },
-  { code: 'ru', name: 'Russian', flag: '🇷🇺', nativeName: 'Русский' },
-  { code: 'ja', name: 'Japanese', flag: '🇯🇵', nativeName: '日本語' },
-  { code: 'hi', name: 'Hindi', flag: '🇮🇳', nativeName: 'हिन्दी' },
-  { code: 'zh', name: 'Chinese', flag: '🇨🇳', nativeName: '中文' },
-  { code: 'ko', name: 'Korean', flag: '🇰🇷', nativeName: '한국어' }
+  { code: 'en', name: 'English', flag: '🇬🇧', nativeName: 'English', countryCode: 'GB' },
+  { code: 'de', name: 'German', flag: '🇩🇪', nativeName: 'Deutsch', countryCode: 'DE' },
+  { code: 'tr', name: 'Turkish', flag: '🇹🇷', nativeName: 'Türkçe', countryCode: 'TR' },
+  { code: 'es', name: 'Spanish', flag: '🇪🇸', nativeName: 'Español', countryCode: 'ES' },
+  { code: 'fr', name: 'French', flag: '🇫🇷', nativeName: 'Français', countryCode: 'FR' },
+  { code: 'it', name: 'Italian', flag: '🇮🇹', nativeName: 'Italiano', countryCode: 'IT' },
+  { code: 'nl', name: 'Dutch', flag: '🇳🇱', nativeName: 'Nederlands', countryCode: 'NL' },
+  { code: 'ru', name: 'Russian', flag: '🇷🇺', nativeName: 'Русский', countryCode: 'RU' },
+  { code: 'ja', name: 'Japanese', flag: '🇯🇵', nativeName: '日本語', countryCode: 'JP' },
+  { code: 'hi', name: 'Hindi', flag: '🇮🇳', nativeName: 'हिन्दी', countryCode: 'IN' },
+  { code: 'zh', name: 'Chinese', flag: '🇨🇳', nativeName: '中文', countryCode: 'CN' },
+  { code: 'ko', name: 'Korean', flag: '🇰🇷', nativeName: '한국어', countryCode: 'KR' }
 ];
 
 export const LanguageSwitcher = () => {
@@ -46,8 +47,7 @@ export const LanguageSwitcher = () => {
         className="!px-3 space-x-2"
       >
         <Languages className="w-4 h-4" />
-        <span>{currentLanguage.flag}</span>
-        <span>{currentLanguage.code.toUpperCase()}</span>
+        <span>{`${currentLanguage.code.toUpperCase()} - ${currentLanguage.countryCode}`} ▼</span>
       </Button>
 
       <Modal
@@ -55,6 +55,7 @@ export const LanguageSwitcher = () => {
         onClose={() => setIsOpen(false)}
         title="Select Language"
         className="max-w-xs"
+        style={{ zIndex: 1000 }} // Ensure the popover is above other elements
       >
         <div className="grid grid-cols-1 gap-2">
           {languages.map((lang) => (
