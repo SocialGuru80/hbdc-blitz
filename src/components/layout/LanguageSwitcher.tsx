@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Languages } from 'lucide-react';
 import { Button } from '../ui/Button';
-import { Modal } from '../ui/Modal';
+import { Popover } from '../ui/Popover';
 
 interface Language {
   code: string;
@@ -39,41 +39,41 @@ export const LanguageSwitcher = () => {
   };
 
   return (
-    <>
-      <Button
-        variant="outline"
-        size="sm"
-        onClick={() => setIsOpen(true)}
-        className="!px-3 space-x-2"
-      >
-        <Languages className="w-4 h-4" />
-        <span>{`${currentLanguage.code.toUpperCase()} - ${currentLanguage.countryCode}`} ▼</span>
-      </Button>
-
-      <Modal
-        isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
-        title="Select Language"
-        className="max-w-xs"
-        style={{ zIndex: 1000 }} // Ensure the popover is above other elements
-      >
-        <div className="grid grid-cols-1 gap-2">
-          {languages.map((lang) => (
-            <button
-              key={lang.code}
-              onClick={() => handleLanguageChange(lang.code)}
-              className={`flex items-center space-x-3 w-full p-2 rounded-lg transition-colors
-                ${lang.code === i18n.language ? 'bg-secondary/20' : 'hover:bg-gray-100'}`}
-            >
-              <span className="text-xl">{lang.flag}</span>
-              <div className="flex flex-col items-start">
-                <span className="font-medium">{lang.name}</span>
-                <span className="text-sm text-gray-500">{lang.nativeName}</span>
-              </div>
-            </button>
-          ))}
-        </div>
-      </Modal>
-    </>
+    <Popover
+      isOpen={isOpen}
+      onClose={() => setIsOpen(false)}
+      trigger={
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => setIsOpen(!isOpen)}
+          className="!px-3 space-x-2"
+        >
+          <Languages className="w-4 h-4" />
+          <span className="flex items-center gap-2">
+            <span className="text-base">{currentLanguage.flag}</span>
+            <span>{currentLanguage.code.toUpperCase()}</span>
+          </span>
+        </Button>
+      }
+      className="w-[480px] p-4"
+    >
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {languages.map((lang) => (
+          <button
+            key={lang.code}
+            onClick={() => handleLanguageChange(lang.code)}
+            className={`flex items-center space-x-3 w-full p-3 rounded-lg transition-colors
+              ${lang.code === i18n.language ? 'bg-secondary/20' : 'hover:bg-gray-100'}`}
+          >
+            <span className="text-2xl">{lang.flag}</span>
+            <div className="flex flex-col items-start">
+              <span className="font-medium">{lang.name}</span>
+              <span className="text-sm text-gray-500">{lang.nativeName}</span>
+            </div>
+          </button>
+        ))}
+      </div>
+    </Popover>
   );
 };
